@@ -94,5 +94,15 @@ Math.PI // . is use to property
 
 ## 定義macro
 ```mn
+(macro hello() -> {
+    () => {
+        "hello" |> IO::puts;
+    };
+    (world) => {
+        "hello world" |> IO::puts;
+    };
+})!; // println macro
 
+(hello)!
+(hello world)!
 ```
