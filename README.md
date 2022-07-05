@@ -10,7 +10,7 @@
 ## 型別系統
 ```mn
 Complex<integer, integer>; // simple type
-// key is an integer tpye
+// key is an integer type
 
 Complex {
     real: integer;
