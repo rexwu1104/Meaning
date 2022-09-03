@@ -1,3 +1,3 @@
 var main() {
-    println("hello \u{21world");
+    println(0xffff);
 }

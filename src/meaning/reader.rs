@@ -1,7 +1,7 @@
 use std::path::Path;
 use std::env::current_dir;
 
-use super::{file::{File, FileType, Directory}, token::{Token, TokenType}};
+use super::file::{File, FileType, Directory};
 
 pub struct Reader {
     pub(crate) main: File,

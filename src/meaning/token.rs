@@ -7,15 +7,16 @@ pub struct TokenError {
 
 #[derive(Debug)]
 pub enum TokenType {
-    Number(u128),
+    Number(String),
     String(String),
-    Boolean(bool),
+    Char(String),
+    Boolean(String),
     Operator(String),
     Keyword(String),
-    Macro(String),
     Identifier(String),
     Error(TokenError),
     Other(String),
+    Space,
     End
 }
 
