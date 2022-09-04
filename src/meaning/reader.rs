@@ -42,7 +42,7 @@ impl Reader {
 
 impl Reader {
     pub fn tokenize(&mut self) -> () {
-       self.main.tokenize();
+       println!("{:#?}", self.main.tokenize());
     }
 }
 
